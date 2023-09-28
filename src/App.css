@@ -1,0 +1,54 @@
+header{
+  text-align: center;
+  text-shadow: 1px 1px ;
+  text-shadow: 5px 5px 5px cyan;
+}
+.flex{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.Class-Container,.Functional-Container{
+  width: 400px;
+  text-align: center;
+  padding: 50px;
+  background-color: skyblue;
+  border-radius: 35px;
+  border: 2px solid black;
+  height: 210px;
+}
+.Class-Container{
+  background-color: rgb(225, 115, 231);
+}
+.external{
+  font-size:18px;
+  
+}
+.Buttons{
+  padding: 2em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+}
+.Button1{
+  border: none;
+  border-radius: 50px;
+  height: 70px;
+  padding: 0em 1em;
+  background-color: cyan;
+  font-size: 20px;
+  font-weight: 700;
+ 
+}
+.Button1:hover{
+  cursor: pointer;
+  background-color: skyblue;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
